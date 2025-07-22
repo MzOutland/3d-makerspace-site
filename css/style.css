@@ -1,0 +1,78 @@
+body {
+  font-family: 'Ariel', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  background-color: beige;
+}
+
+h1, h2, h3 {
+  color: blue;
+  font-weight: bold;
+}
+
+.section-title {
+  border: 2px solid rgb(96, 48, 230);
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-family: 'Courier New', monospace;
+}
+
+.content-card img {
+  max-height: 200px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.footer-section {
+  border: 2px solid #43048a;
+  border-radius: 20px;
+  background-color: #5d7eaf;
+  font-family: 'Courier New', monospace;
+}
+
+.footer-section h4 {
+  font-weight: bold;
+}
+
+.footer-section a.btn {
+  min-width: 120px;
+}
+
+form {
+  font-family: 'Courier New', monospace;
+  background-color: #c4cc2a;
+  padding: 2rem;
+  border: 2px solid #000;
+  border-radius: 20px;
+}
+
+/* ========== MEDIA QUERY FOR SMALL SCREENS ========== */
+@media (max-width: 768px) {
+  header, .footer-section {
+    padding: 1rem;
+  }
+
+  .content-card {
+    font-size: 0.95rem;
+    padding: 1rem;
+  }
+
+  nav .btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero-section {
+    padding: 1rem;
+  }
+
+  form {
+    padding: 1.5rem;
+  }
+}
+
