@@ -23,6 +23,21 @@ h1, h2, h3 {
   border-radius: 8px;
 }
 
+#printer-list {
+  background-color: #cee68c;
+  padding: 1rem; 
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#printer-inventory {
+  border-bottom: 1px solid #000;
+  padding: 0.75rem 0;
+  font-size: 2rem;
+  gap: 1rem;
+}
+
 .footer-section {
   border: 2px solid #43048a;
   border-radius: 20px;
@@ -76,3 +91,7 @@ form {
   }
 }
 
+#todoForm .form-check-input:checked + .form-check-label {
+  text-decoration: line-through;
+  color: gray;
+}
