@@ -7,7 +7,7 @@ fetch('https://api.sketchfab.com/v3/search?type=models&q=${searchTerm}`, {
   headers: {
     Authorization: `Token ${token}`
   }
-})
+)
   .then(response => {
     if (!response.ok) {
       throw new Error("Could not fetch image from Sketchfab API");
