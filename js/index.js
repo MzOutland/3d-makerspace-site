@@ -3,7 +3,7 @@
 const token = 'a00985e32d0949c18f2598f54e8741a0';
 const searchTerm = '3d printer';
 
-fetch("https://api.sketchfab.com/v3/search?type=models&q=${searchTerm}`, {
+fetch('https://api.sketchfab.com/v3/search?type=models&q=${searchTerm}`, {
   headers: {
     Authorization: `Token ${token}`
   }
@@ -21,7 +21,7 @@ fetch("https://api.sketchfab.com/v3/search?type=models&q=${searchTerm}`, {
   .catch(error => console.error('Error fetching models:', error));
 
   function displaySketchfabThumbnails(models) {
-    const container = document.getElementById('sketcfab-gallery');
+    const container = document.getElementById('sketchfab-gallery');
     container.innerHTML = ''; 
 
     models.forEach(model => {
