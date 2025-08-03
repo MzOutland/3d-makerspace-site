@@ -54,3 +54,4 @@ fetch(`https://api.sketchfab.com/v3/search?type=models&q=${encodeURIComponent(qu
     console.error('Error fetching models:', err);
     gallery.innerHTML = '<p class="text-danger">Failed to fetch models. Please try again later.</p>';
   });
+});
