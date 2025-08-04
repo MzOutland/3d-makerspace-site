@@ -12,6 +12,10 @@ My capstone is a "How-to" website for creating a 3D Mobile Makerspace. The Websi
 
 Currently, there are five pages of the website the user will be able to visit. The "home" page is the index page which holds
 
+# Features Implements
+
+Fetch API using Sketchfab Viewer API. The purpose of the API is to provide the user with examples of 3D printers and 3D Designs. More information for the Sketchfab API can be found at this link: https://sketchfab.com/developers/viewer
+
 ## Installation Instructions
 
 To set up the website locally:
@@ -20,9 +24,11 @@ Install Visual Studio Code to your computer. The link to download Visual Studio 
 
 Node.js
 
+Use the fetch API to get images.
+
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YourUsername/3d-mobile-makerspace.git
+   git clone https://github.com/MzOutland/3d-makerspace-site.git
    ```
 
 ## Usage
@@ -34,3 +40,7 @@ Node.js
 ## License
 
 ## Credits
+
+Google search
+ChatGPT
+Co-Pilot
