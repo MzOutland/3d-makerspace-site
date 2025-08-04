@@ -55,7 +55,7 @@ Add a database for teachers to reserve my 3D Mobile Makerspace.
 
 ## Credits
 
-Mentor Ken Quiggins assisted with API implementation.
-Google search for images, examples and general questions.
-ChatGPT was used for explanations on challenging concepts such as Fetch API, React, Express, etc.
-Co-Pilot
+1. Mentor Ken Quiggins assisted with API implementation.
+2. Google search for images, examples and general questions.
+3. ChatGPT was used for explanations on challenging concepts such as Fetch API, React, Express, etc.
+4. Co-Pilot detected syntax errors inside of VS Code.
