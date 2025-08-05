@@ -1,33 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>3D Printer Inventory | 3D Mobile Makerspace</title>
+
+  <!--UI frameworks / styles -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
-</head>
+
+<!-- (optional) Sketchfab Viewer SDK-only needed later if you want deep API control 
+  <script defer src="https://static.sketchfab.com/api/sketchfab-viewer-1.12.1.js"></script> -->
 
 <script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.12.1.js"></script>
-  <script src="js/3dviewer.js" defer></script>
-<body>
+  <script src="js/3dviewer.js" defer></script> 
+
+</head>
+
+<body class="container">
 
     <header class="text-center p-4 border rounded mb-4">
         <h1>3D Printer Inventory</h1>
-        <p class="lead">Explore our collection of 3D printers available for your mobile makerspace.</p>
+        <p class="lead">
+          Explore our collection of 3D printers available for your mobile makerspace.
+        </p>
         <a href="index.html" href="css/style.css">Back to Home</a>
     </header>
 
     
-    <main class="container">
+    <main>
+      <!--search and gallery-->
         <section id="printer-list" class="mb-5">
             <h2>Available 3D Printers</h2><br>
-            <p><b>Click on a printer name to view details and specifications.</p></b>
+            <p><b>Click on a printer name to view details and specifications.</b></p>
             <ul id="printerInventory"></ul>
             <div class="row g-4">
-    <input type="text" id="printerName " class="form-control mb-3" placeholder="Search for a 3D printer..." />  
+                <div class="col-md-4">
+                    <div class="card">
+                        
+            <input type="text" id="search-box " class="form-control mb-3" placeholder="Search for a 3D printer..." />  
    
-
+      <button id="search-btn" class="btn btn-primary mb-4">
+        Search Inventory
+      </button>
     <img src="images/bambu-lab-H2D-laser.jpg" alt="3d Printer Image" id="Bambu Laser Printer"/>
 
     <script src="js/3dprinters.js"></script>

@@ -1,6 +1,8 @@
 //fetch = Function used for making HTTP request to fetch images from Sketchfab API
 
 const token = 'a00985e32d0949c18f2598f54e8741a0';
+
+// --DOM References-------------------------------------------------
 const searchBox = document.getElementById('search-box');
 const searchBtn = document.getElementById('search-btn');
 const gallery = document.getElementById('sketchfab-gallery');
