@@ -43,6 +43,10 @@ Use the fetch API to get images.
 
 ## How to Use the Website locally
 
+In Visual Studio Code, open the WEBSITE folder which contains all HTML, CSS, and JS files needed to interact with the website locally.
+Begin with index.html. Right click the file name, choose "Open with Liveserver".  
+To interact with the fetch API, click on "3D Printer Buying Guide". This Web page will provide purchasing options with vendors FCPS can use. To use search Sketchfab, click in the Search 3D Printer text box, type a name of a 3D printer type. For example, Ulti, Makerbot, etc. Click "Search" button. Thumbnails should load into the page.
+
 ## Examples
 
 ## Contributing

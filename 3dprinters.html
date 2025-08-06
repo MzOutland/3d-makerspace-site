@@ -13,13 +13,15 @@
 <!-- (optional) Sketchfab Viewer SDK-only needed later if you want deep API control 
   <script defer src="https://static.sketchfab.com/api/sketchfab-viewer-1.12.1.js"></script> -->
 
-<script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.12.1.js"></script>
-  <script src="js/3dviewer.js" defer></script> 
+<!-- not needed at this time
+ <script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.12.1.js"></script>
+  <script src="js/3dviewer.js" defer></script> -->
 
 </head>
 
 <body class="container">
 
+  <!--Header Section-->
     <header class="text-center p-4 border rounded mb-4">
         <h1>3D Printer Inventory</h1>
         <p class="lead">
@@ -28,23 +30,26 @@
         <a href="index.html" href="css/style.css">Back to Home</a>
     </header>
 
-    
+    <!--Main Section-->
     <main>
-      <!--search and gallery-->
-        <section id="printer-list" class="mb-5">
+      <section id="printer-list" class="mb-5">
             <h2>Available 3D Printers</h2><br>
-            <p><b>Click on a printer name to view details and specifications.</b></p>
+            <p>Click on a printer name to view details and specifications.</p>
+
+    <!--Search Area-->   
             <ul id="printerInventory"></ul>
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card">
-                        
+            <img src="images/bambu-lab-H2D-laser.jpg" alt="3d Printer Image" id="Bambu Laser Printer"/>     
+                  
             <input type="text" id="search-box " class="form-control mb-3" placeholder="Search for a 3D printer..." />  
    
       <button id="search-btn" class="btn btn-primary mb-4">
         Search Inventory
       </button>
-    <img src="images/bambu-lab-H2D-laser.jpg" alt="3d Printer Image" id="Bambu Laser Printer"/>
+
+    
 
     <script src="js/3dprinters.js"></script>
         </section>

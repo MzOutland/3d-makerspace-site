@@ -160,3 +160,10 @@ form {
   border-radius: 5px;
   cursor: pointer;
 }
+
+#api-frame {
+ width: 650px; 
+ height: 480px; 
+ border: none; 
+ margin-top: 20px;"
+}
