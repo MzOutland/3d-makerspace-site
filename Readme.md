@@ -10,7 +10,7 @@ My capstone is a "How-to" website for creating a 3D Mobile Makerspace. The Websi
 
 ## Project Organization
 
-Currently, there are five pages of the website the user will be able to visit. The "home" page is the index page which holds links to the other web pages.
+Currently, there are five pages of the website the user will be able to visit. The "home" page is the index page which holds links to the other web pages. More pages will be added.
 
 Important pages are:
 
@@ -27,6 +27,8 @@ Fetch API using Sketchfab Viewer API. The purpose of the API is to provide the u
 ## Installation Instructions
 
 To set up the website locally:
+
+Go to the GitHub repository at: https://github.com/MzOutland/3d-makerspace-site.git
 
 Install Visual Studio Code to your computer. The link to download Visual Studio Code is: https://code.visualstudio.com/download. Choose the version of Visual Studio Code for the Operating System installed on your PC or MAC.
 
@@ -49,13 +51,12 @@ To interact with the fetch API, click on "3D Printer Buying Guide". This Web pag
 
 ## Examples
 
-## Contributing
-
 ## License
 
 ## Stretch Goals
 
 Add a database for teachers to reserve my 3D Mobile Makerspace.
+Create more pages to provide tutorials and videos for teachers
 
 ## Credits
 
