@@ -44,8 +44,14 @@ Use the fetch API to get images.
 ## How to Use the Website locally
 
 In Visual Studio Code, open the WEBSITE folder which contains all HTML, CSS, and JS files needed to interact with the website locally.
-Begin with index.html. Right click the file name, choose "Open with Liveserver".  
-To interact with the fetch API, click on "3D Printer Buying Guide". This Web page will provide purchasing options with vendors FCPS can use. To use search Sketchfab, click in the Search 3D Printer text box, type a name of a 3D printer type. For example, Ulti, Makerbot, etc. Click "Search" button. Thumbnails should load into the page.
+
+1. Begin with index.html. Right click the file name, choose "Open with Liveserver".
+2. The index.html will open in a browser.
+3. Click on "3D Printers" button under Our Mobile MakerSpaces. This will show the inventory currently on hand for teachers to borrow (form will come later.) This page demonstrates an array that displays information.
+4. Click on "Back to Home" to return to the main page.
+5. Click on "Where do I start" to see a clickable "to do" list the user can interact with.
+6. The 3dprinter-buying-guide page shows 3D printers recommended for purchase. Click the "Buy Now" button to go to the website to purchase.
+7. To interact with the fetch API, click on "3D Printer Buying Guide". To use search Sketchfab, click in the Search 3D Printer text box, type a name of a 3D printer type. For example, Ulti, Makerbot, etc. Click "Search" button. Thumbnails should load into the page.
 
 ## Examples
 

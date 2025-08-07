@@ -1,9 +1,10 @@
 const iframe = document.getElementById('api-iframe');
 const client = new Sketchfab('1.12.1', iframe,);
 
-function loadInViewer(uid) {
+function loadInViewer(uid, {autostart = true} = {}) {
 
-  client.init(uid,{
+  client.init(uid, {
+    autostart, 
     success: function (api) {
       api.start();
       api.addEventListener('viewerready', function() {

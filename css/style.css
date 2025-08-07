@@ -1,5 +1,5 @@
 body {
-  font-family: 'Ariel', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', Arial, Helvetica, sans-serif;
   font-size: 22px;
   background-color: beige;
 }
@@ -169,5 +169,5 @@ form {
  width: 650px; 
  height: 480px; 
  border: none; 
- margin-top: 20px;"
+ margin-top: 20px;
 }
