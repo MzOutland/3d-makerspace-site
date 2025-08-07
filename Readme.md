@@ -6,7 +6,7 @@ A capstone project for CodeYou: Kentucky. The project using a third party API wh
 
 # Project Description
 
-My capstone is a "How-to" website for creating a 3D Mobile Makerspace. The Website is designed to help educators and innovators plan, build, and manage a mobile 3D printing makerspace. It provides practical setup steps, equipment lists, instructional materials, and interactive features like a printer/tool search and teacher reservation form. Implementing 3D printing into the curriculum is an daunting task to undertake. My website will help educators have basic understanding of what to purchase when creating a 3D printing mobile makerspace.
+My capstone is a "How-to" website for creating a 3D Mobile Makerspace. The Website is designed to help educators and innovators plan, build, and manage a mobile 3D printing makerspace. It provides practical setup steps, equipment lists, instructional materials, and interactive features like a printer/tool search and design examples. The plan is to add a teacher reservation form. Implementing 3D printing into the curriculum is an daunting task to undertake. My website will help educators have basic understanding of what equipment to purchase when creating a 3D printing mobile makerspace.
 
 ## Project Organization
 
@@ -33,8 +33,6 @@ Go to the GitHub repository at: https://github.com/MzOutland/3d-makerspace-site.
 Install Visual Studio Code to your computer. The link to download Visual Studio Code is: https://code.visualstudio.com/download. Choose the version of Visual Studio Code for the Operating System installed on your PC or MAC.
 
 Add the Live Server extension in Visual Studio Code. This extension will allow the user to view the web pages locally. To install the Live Server extension, click on the "extension" icon, search for Live Server. Follow the installation instructions to install the extension.
-
-Node.js will provide more features in the command line.
 
 Use the fetch API to get images.
 
