@@ -75,8 +75,9 @@
                 </div>
 
             </div> 
+            
                 
-                <!-- Sketchfab Search section-->
+        <!-- Sketchfab Search section-->
 
                 <section class="sketchfab-search">
                     <h2 class="mt-5">Sketchfab Model Search</h2>
@@ -94,20 +95,22 @@
                     <div id="sketchfab-gallery" class="d-flex flex-wrap justify-content-center gap-4"></div>
                 </section>
 
-                <!-- Viewer Buttons -->
+        <!-- Viewer Buttons -->
                  <div class="mt-4">
-                    <button 
-                        class=""btn btn-outline-secondary me-2"
-                        onclick="loadInViewer('1234567890abcdef1234567890abcdef')"
-                    >
-                    Load Another Model
-                </button>
+                    <button onclick="loadInViewer('1234567890abcdef1234567890abcdef', { autostart: true})">
+                        Load Model 
+                    </button>
+
+                    <button onclick="loadInViewer('abcdef1234567890abcdef1234567890', { autostart: false})">
+                        Load Another Model 
+                    </button>
                 </div>
 
-                <!--Sketchfab Viewer iframe -->
+        <!--Sketchfab Viewer iframe -->
             <iframe id="api-frame"
                 title="3D Model Viewer"
-                allow="autoplay; fullscreen; vr">
+                allow="autoplay; fullscreen; vr"
+                style="width: 650px; height: 480px; border: none; margin-top: 20px;">
             </iframe>
             </section>
 
@@ -116,19 +119,7 @@
             </footer>
 
     
-    <!--Sketchfab Fetch Results-->    
-
-    <!--buttons I'm not sure I need here <div>
-        <button onclick="loadInViewer('1234567890abcdef1234567890abcdef')">Load 3D Model</button>
-        <button onclick="loadInViewer('abcdef1234567890abcdef1234567890')">Load Another Model</button>
-
-    </div> <br>
-
-    <!-- <input type="text" id="search-box" placeholder="Search 3D printers..." />
-    <button id="search-btn">Search</button>
-    <div id="sketchfab-gallery" class="d-flex flex-wrap gap-3 mt-4"></div> -->   
-
-        <!--My Sketchfab Viewer & Fetch Script-->
+      <!--My Sketchfab Viewer & Fetch Script-->
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://static.sketchfab.com/api/sketchfab-viewer-1.12.1.js"></script>

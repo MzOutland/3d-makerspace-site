@@ -1,5 +1,5 @@
 const iframe = document.getElementById('api-iframe');
-const client = new Sketchfab('1.12.1', iframe,);
+const client = new Sketchfab('1.12.1', iframe);
 
 function loadInViewer(uid, {autostart = true} = {}) {
 

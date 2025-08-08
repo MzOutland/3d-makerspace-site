@@ -51,7 +51,7 @@ In Visual Studio Code, open the WEBSITE folder which contains all HTML, CSS, and
 4. Click on "Back to Home" to return to the main page.
 5. Click on "Where do I start" to see a clickable "to do" list the user can interact with.
 6. The 3dprinter-buying-guide page shows 3D printers recommended for purchase. Click the "Buy Now" button to go to the website to purchase.
-7. To interact with the fetch API, click on "3D Printer Buying Guide". To use search Sketchfab, click in the Search 3D Printer text box, type a name of a 3D printer type. For example, Ulti, Makerbot, etc. Click "Search" button. Thumbnails should load into the page.
+7. To interact with the fetch API, click on "3D Printer Buying Guide". To use search Sketchfab, click in the Search models text box, type a name or keyword of something you want to print. For example, Pokemon, Tur, etc. Click "Search" button. Thumbnails should load into the page.
 
 ## Examples
 
@@ -67,4 +67,4 @@ Create more pages to provide tutorials and videos for teachers
 1. Mentor Ken Quiggins assisted with API implementation.
 2. Google search for images, examples and general questions.
 3. ChatGPT was used for explanations on challenging concepts such as Fetch API, React, Express, etc.
-4. Co-Pilot detected syntax errors inside of VS Code.
+4. Co-Pilot detected syntax errors inside of VS Code. The explanation assisted in my understanding of the errors and how to fix.
