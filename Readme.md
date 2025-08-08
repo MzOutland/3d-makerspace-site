@@ -4,7 +4,7 @@ Overview:
 
 A capstone project for CodeYou: Kentucky. The project using a third party API while showcasing knowledge of HTML, CSS and JavaScript.
 
-# Project Description
+## Project Description
 
 My capstone is a "How-to" website for creating a 3D Mobile Makerspace. The Website is designed to help educators and innovators plan, build, and manage a mobile 3D printing makerspace. It provides practical setup steps, equipment lists, instructional materials, and interactive features like a printer/tool search and design examples. The plan is to add a teacher reservation form. Implementing 3D printing into the curriculum is an daunting task to undertake. My website will help educators have basic understanding of what equipment to purchase when creating a 3D printing mobile makerspace.
 
@@ -12,7 +12,7 @@ My capstone is a "How-to" website for creating a 3D Mobile Makerspace. The Websi
 
 Currently, there are five pages of the website the user will be able to visit. The "home" page is the index page which holds links to the other web pages. More pages will be added.
 
-Important pages are:
+**Important pages are:
 
 1. index.html (Home page: begin here.)
 2. start.html (includes the checklist for teachers to use)
@@ -20,7 +20,7 @@ Important pages are:
 4. 3dprinters.html (this page includes my mobile makerspace inventory)
 5. contact.html (allows educators to contact me for more information)
 
-# Features Implements
+## Features Implements
 
 1. A "Where do I start" checklist for teachers to get an idea of what to consider. 
 2. 3D Printer Guide showcasing the best 3D printers for the classroom. 
@@ -63,12 +63,14 @@ In Visual Studio Code, in the left pane, open the WEBSITE folder which contains 
 
 ## Stretch Goals
 
-Add a database for teachers to reserve my 3D Mobile Makerspace.
-Create more pages to provide tutorials and videos for teachers
+*Add a database for teachers to reserve my 3D Mobile Makerspace.
+*Create more pages to provide tutorials and videos for teachers
+*A page for "project examples". 
 
-## Credits
+## Credits and Acknowledgments
 
-1. Mentor Ken Quiggins assisted with API implementation.
+1. Kudos to CodeYou Mentor Ken Quiggins who assisted with API implementation.
 2. Google search for images, examples and general questions.
 3. ChatGPT was used for explanations on challenging concepts such as Fetch API, React, Express, etc.
 4. Co-Pilot detected syntax errors inside of VS Code. The explanation assisted in my understanding of the errors and how to fix.
+5. Thanks to SketchFab for their model examples
