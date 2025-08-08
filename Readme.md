@@ -22,28 +22,33 @@ Important pages are:
 
 # Features Implements
 
-Fetch API using Sketchfab Viewer API. The purpose of the API is to provide the user with examples of 3D printers and 3D Designs. The search results will return thumbnails of the images fetched. More information for the Sketchfab API can be found at this link: https://sketchfab.com/developers/viewer
+1. A "Where do I start" checklist for teachers to get an idea of what to consider. 
+2. 3D Printer Guide showcasing the best 3D printers for the classroom. 
+3. Fetch API using Sketchfab Viewer API. The purpose of the API is to provide the user with examples of 3D printers and 3D Designs. The search results will return thumbnails of the images fetched. More information for the Sketchfab API can be found at this link: https://sketchfab.com/developers/viewer
+4. Contact form for users to (eventually) email me. 
 
-## Installation Instructions
+## Installation Instructions 
 
 To set up the website locally:
-
-Go to the GitHub repository at: https://github.com/MzOutland/3d-makerspace-site.git
 
 Install Visual Studio Code to your computer. The link to download Visual Studio Code is: https://code.visualstudio.com/download. Choose the version of Visual Studio Code for the Operating System installed on your PC or MAC.
 
 Add the Live Server extension in Visual Studio Code. This extension will allow the user to view the web pages locally. To install the Live Server extension, click on the "extension" icon, search for Live Server. Follow the installation instructions to install the extension.
 
-Use the fetch API to get images.
 
-1. Clone this repository:
+Open the Terminal in VS Code: 
+Clone this repository:
    ```bash
    git clone https://github.com/MzOutland/3d-makerspace-site.git
    ```
 
 ## How to Use the Website locally
 
-In Visual Studio Code, open the WEBSITE folder which contains all HTML, CSS, and JS files needed to interact with the website locally.
+In Visual Studio Code, in the left pane, open the WEBSITE folder which contains all HTML, CSS, and JS files needed to interact with the website locally.
+
+## Homepage screenshot
+![Homepage Screenshot](images/homepage-screenshot.jpg)
+
 
 1. Begin with index.html. Right click the file name, choose "Open with Liveserver".
 2. The index.html will open in a browser.
