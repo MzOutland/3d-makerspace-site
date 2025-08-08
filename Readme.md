@@ -49,7 +49,6 @@ In Visual Studio Code, in the left pane, open the WEBSITE folder which contains 
 ## Homepage screenshot
 ![Homepage Screenshot](images/homepage-screenshot.jpg)
 
-
 1. Begin with index.html. Right click the file name, choose "Open with Liveserver".
 2. The index.html will open in a browser.
 3. Click on "3D Printers" button under Our Mobile MakerSpaces. This will show the inventory currently on hand for teachers to borrow (form will come later.) This page demonstrates an array that displays information.
